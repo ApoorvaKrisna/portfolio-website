@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Achievements — Apoorva Krisna</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/jpeg" href="./profile.jpeg" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">AK</span><span class="brand-text">Apoorva Krisna</span></a>
+      <nav class="site-nav" id="siteNav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="achievements.html">Achievements</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a class="cta" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
+      </button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">☾</button>
+    </header>
+
+    <main class="container section">
+      <header class="page-header reveal">
+        <h1>Achievements</h1>
+        <p class="subtitle">Milestones that shaped my engineering journey.</p>
+      </header>
+
+      <section class="counters" aria-label="Achievement counters">
+        <div class="counter-card reveal">
+          <div class="counter-num" data-counter="3">0</div>
+          <div class="counter-label">Awards for backend automation & ownership</div>
+        </div>
+        <div class="counter-card reveal">
+          <div class="counter-num" data-counter="1">0</div>
+          <div class="counter-label">IEEE paper published</div>
+        </div>
+        <div class="counter-card reveal">
+          <div class="counter-num" data-counter="500">0</div>
+          <div class="counter-label">Competitive programming problems solved</div>
+        </div>
+      </section>
+
+      <section class="badges reveal">
+        <span class="badge">Clean Code</span>
+        <span class="badge">Scalability</span>
+        <span class="badge">Impact</span>
+        <span class="badge">Reliability</span>
+      </section>
+
+      <div class="card code-flair reveal">
+        <pre><code>// achievements.md
+- Ownership matters
+- Design before code
+- Make on-call boring
+</code></pre>
+      </div>
+    </main>
+
+    <footer class="site-footer"><div class="container"><p>© <span id="year"></span> Apoorva Krisna.</p></div></footer>
+    <script src="./script.js" defer></script>
+  </body>
+</html>

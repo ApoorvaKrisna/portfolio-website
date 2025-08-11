@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Skills — Apoorva Krisna</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/jpeg" href="./profile.jpeg" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">AK</span><span class="brand-text">Apoorva Krisna</span></a>
+      <nav class="site-nav" id="siteNav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="achievements.html">Achievements</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a class="cta" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
+      </button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">☾</button>
+    </header>
+
+    <main class="container section">
+      <header class="page-header reveal">
+        <h1>Skills</h1>
+        <p class="subtitle">A toolbox for building reliable, scalable, and maintainable systems.</p>
+      </header>
+
+      <div class="grid-2">
+        <section class="stack reveal">
+          <h2>Backend</h2>
+          <ul class="skill-items">
+            <li><span>Java</span><small>My first language — in more ways than one.</small><div class="bar" data-pct="90"></div></li>
+            <li><span>Node.js</span><small>Great for glue, gateways, and growth.</small><div class="bar" data-pct="80"></div></li>
+            <li><span>Python</span><small>When clarity and speed of iteration matter.</small><div class="bar" data-pct="85"></div></li>
+            <li><span>Microservices</span><small>Interfaces over implementations.</small><div class="bar" data-pct="88"></div></li>
+          </ul>
+
+          <h2>Databases</h2>
+          <ul class="skill-items">
+            <li><span>PostgreSQL</span><small>ACID with style.</small><div class="bar" data-pct="85"></div></li>
+            <li><span>MongoDB</span><small>Documents when schema wants to breathe.</small><div class="bar" data-pct="70"></div></li>
+            <li><span>Redis</span><small>Where latency goes to disappear.</small><div class="bar" data-pct="80"></div></li>
+          </ul>
+
+          <h2>Cloud & DevOps</h2>
+          <ul class="skill-items">
+            <li><span>Docker</span><small>Consistency is a container away.</small><div class="bar" data-pct="85"></div></li>
+            <li><span>Kubernetes</span><small>Orchestrating the orchestra.</small><div class="bar" data-pct="68"></div></li>
+            <li><span>CI/CD</span><small>Deliver fast, recover faster.</small><div class="bar" data-pct="80"></div></li>
+          </ul>
+
+          <h2>Frontend (Basics)</h2>
+          <ul class="skill-items">
+            <li><span>HTML/CSS</span><small>Respect the cascade.</small><div class="bar" data-pct="75"></div></li>
+            <li><span>React</span><small>Enough to build great dashboards.</small><div class="bar" data-pct="65"></div></li>
+          </ul>
+
+          <h2>Languages</h2>
+          <ul class="skill-items">
+            <li><span>Java</span><div class="bar" data-pct="90"></div></li>
+            <li><span>Python</span><div class="bar" data-pct="85"></div></li>
+            <li><span>TypeScript</span><div class="bar" data-pct="70"></div></li>
+          </ul>
+        </section>
+
+        <aside class="learn reveal">
+          <div class="card">
+            <h3>Learning Now</h3>
+            <ul class="list">
+              <li>Rust — predictable performance, fearless concurrency</li>
+              <li>Go — simple, solid, boring (in the best way)</li>
+              <li>Serverless AI deployments — tiny agents, big impact</li>
+            </ul>
+          </div>
+          <div class="card code-flair">
+            <pre><code>// skills.json
+{"streaming":"Kafka","orchestration":"K8s","cache":"Redis"}
+</code></pre>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="site-footer"><div class="container"><p>© <span id="year"></span> Apoorva Krisna.</p></div></footer>
+    <script src="./script.js" defer></script>
+  </body>
+</html>

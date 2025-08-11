@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Apoorva Krisna — Backend Software Engineer in Gurugram, India. Portfolio, projects, writing, and contact." />
+    <title>Apoorva Krisna — Backend Engineer</title>
+
+    <meta property="og:title" content="Apoorva Krisna — Backend Engineer" />
+    <meta property="og:description" content="Event‑driven architectures, microservices, and scalable system design." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://apoorvakrisna.com/" />
+    <meta property="og:image" content="https://apoorvakrisna.com/profile.jpeg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#1e3a8a" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/jpeg" href="./profile.jpeg" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="brand-mark">AK</span>
+        <span class="brand-text">Apoorva Krisna</span>
+      </a>
+      <nav class="site-nav" id="siteNav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="achievements.html">Achievements</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a class="cta" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">☾</button>
+    </header>
+
+    <main>
+      <section class="hero-landing">
+        <div class="code-bg" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Backend Engineer · Gurugram, India</p>
+            <h1>I build backend systems that never sleep.</h1>
+            <p class="subtitle">
+              Specialized in event-driven architectures, microservices, and scalable
+              system design — focusing on fault-tolerance, throughput, and clarity.
+            </p>
+            <p class="microcopy">Turning complex workflows into clean, dependable code — fueled by coffee and curiosity.</p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="projects.html">View My Work</a>
+              <a class="btn btn-outline" href="contact.html">Get in Touch</a>
+            </div>
+            <div class="callout code-flair">
+              <pre><code>// TODO: Build something amazing here.
+// Hint: events in, value out.
+</code></pre>
+            </div>
+          </div>
+          <aside class="hero-aside reveal">
+            <div class="stat">
+              <span class="stat-num" data-counter="500">0</span>
+              <span class="stat-label">Problems solved</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-counter="9">0</span>
+              <span class="stat-label">Systems shipped</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-counter="99">0</span>
+              <span class="stat-label">Uptime obsessions (%)</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section container features">
+        <article class="feature reveal">
+          <h3>Event-Driven by Default</h3>
+          <p>Kafka, streams, and backpressure-aware services that scale with confidence.</p>
+        </article>
+        <article class="feature reveal">
+          <h3>Clean Architecture</h3>
+          <p>Bounded contexts, stable contracts, and tests that keep moving parts honest.</p>
+        </article>
+        <article class="feature reveal">
+          <h3>Operational Excellence</h3>
+          <p>Metrics, tracing, and automation that make on-call boring (in the best way).</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Apoorva Krisna. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>

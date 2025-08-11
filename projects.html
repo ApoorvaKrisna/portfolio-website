@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects — Apoorva Krisna</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/jpeg" href="./profile.jpeg" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">AK</span><span class="brand-text">Apoorva Krisna</span></a>
+      <nav class="site-nav" id="siteNav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="achievements.html">Achievements</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a class="cta" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
+      </button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">☾</button>
+    </header>
+
+    <main class="container section">
+      <header class="page-header reveal">
+        <h1>Projects</h1>
+        <p class="subtitle">A mix of research, prototypes, and practical systems work.</p>
+      </header>
+
+      <div class="projects-grid">
+        <article class="card project reveal">
+          <h3>Rainy Vision</h3>
+          <p>GAN-based deraining combined with image captioning. Published in IEEE ICAC3N-22. Focused on improving downstream perception in adverse weather.</p>
+          <ul class="tags"><li>GANs</li><li>Computer Vision</li><li>Python</li></ul>
+        </article>
+
+        <article class="card project reveal">
+          <h3>Real-time Stream Processor</h3>
+          <p>Kafka-based analytics dashboard prototype. Sliding windows, tumbling aggregates, and backpressure-aware consumers for smooth real-time insights.</p>
+          <ul class="tags"><li>Kafka</li><li>Streams</li><li>Dashboards</li></ul>
+        </article>
+
+        <article class="card project reveal">
+          <h3>AI Service Monitor</h3>
+          <p>Lightweight AI agent for anomaly detection across microservices. Hooks into logs/metrics, flags outliers, suggests rollbacks.</p>
+          <ul class="tags"><li>AI</li><li>Observability</li><li>Anomaly Detection</li></ul>
+        </article>
+
+        <article class="card project reveal">
+          <h3>Algorithmic Playground</h3>
+          <p>Personal DSA repository with 500+ problems solved. Emphasis on patterns, invariants, and elegant proofs.</p>
+          <ul class="tags"><li>DSA</li><li>Algorithms</li><li>Notes</li></ul>
+        </article>
+      </div>
+
+      <section class="section">
+        <h2 class="reveal">Imagined Futures</h2>
+        <div class="projects-grid">
+          <article class="card project reveal">
+            <h3>Decentralized Event Broker</h3>
+            <p>Exploring a broker that routes at the edge with CRDT-backed consistency and graceful partitions.</p>
+            <ul class="tags"><li>CRDT</li><li>Edge</li><li>P2P</li></ul>
+          </article>
+          <article class="card project reveal">
+            <h3>Zero-Downtime Schema Toolkit</h3>
+            <p>DDL orchestration for relational stores with automated safety checks and dual-write adapters.</p>
+            <ul class="tags"><li>Postgres</li><li>Migrations</li><li>SRE</li></ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="container"><p>© <span id="year"></span> Apoorva Krisna.</p></div></footer>
+    <script src="./script.js" defer></script>
+  </body>
+</html>

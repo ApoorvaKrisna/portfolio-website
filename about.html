@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About — Apoorva Krisna</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/jpeg" href="./profile.jpeg" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">AK</span><span class="brand-text">Apoorva Krisna</span></a>
+      <nav class="site-nav" id="siteNav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="achievements.html">Achievements</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a class="cta" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
+      </button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">☾</button>
+    </header>
+
+    <main class="container section">
+      <header class="page-header reveal">
+        <h1>About</h1>
+        <p class="subtitle">Backend engineering as precision craft and creative problem solving.</p>
+      </header>
+
+      <div class="about-layout">
+        <article class="about-main reveal">
+          <h2>Origin</h2>
+          <p>I pulled apart games to see how they worked, and discovered the beauty of systems: rules, events, and emergent behavior. That curiosity took me to computer science and never let go.</p>
+
+          <h2>Education</h2>
+          <p>Delhi Technological University (DTU), New Delhi — B.Tech in Computer Science & Engineering. CGPA 8.34/10.</p>
+
+          <h2>Philosophy</h2>
+          <p>Great backends are invisible. They quietly move data, guarantee consistency, and create room for product teams to breathe. I believe in event-driven thinking, clean boundaries, and automation that turns toil into tools.</p>
+
+          <blockquote class="quote">
+            <p>Every system deserves a good architecture — like every house deserves a good foundation.</p>
+          </blockquote>
+
+          <h2>What I Love</h2>
+          <ul class="list">
+            <li>Architecting fault-tolerant systems</li>
+            <li>Building event-driven pipelines</li>
+            <li>Optimizing workflows and developer experience</li>
+          </ul>
+
+          <h2>Personality</h2>
+          <ul class="list">
+            <li>Competitive programmer — 500+ problems solved</li>
+            <li>Reads tech blogs, explores AI/ML integrations</li>
+            <li>Late-night coding to lo-fi beats</li>
+          </ul>
+        </article>
+
+        <aside class="about-side reveal">
+          <div class="card profile-photo">
+            <img src="./profile.jpeg" alt="Apoorva Krisna profile photo" />
+          </div>
+          <div class="card note">
+            <h3>Side notes</h3>
+            <ul>
+              <li>“I debug best after midnight.”</li>
+              <li>“Coffee is a feature, not a dependency.”</li>
+              <li>“Test it like production, not like a demo.”</li>
+            </ul>
+          </div>
+          <div class="card code-flair">
+            <pre><code>// philosophy.ts
+export const motto = "Small services, big guarantees";
+</code></pre>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="site-footer"><div class="container"><p>© <span id="year"></span> Apoorva Krisna.</p></div></footer>
+    <script src="./script.js" defer></script>
+  </body>
+</html>

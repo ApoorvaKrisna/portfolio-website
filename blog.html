@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog — Apoorva Krisna</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/jpeg" href="./profile.jpeg" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">AK</span><span class="brand-text">Apoorva Krisna</span></a>
+      <nav class="site-nav" id="siteNav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="achievements.html">Achievements</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a class="cta" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
+      </button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">☾</button>
+    </header>
+
+    <main class="container section">
+      <header class="page-header reveal">
+        <h1>Blog</h1>
+        <p class="subtitle">Notes on systems, scale, and the craft of building.</p>
+      </header>
+
+      <div class="blog-grid">
+        <article class="card blog-card reveal">
+          <h3>The Art of Scalable Event-Driven Architectures</h3>
+          <p>Idempotency, ordering, and replays — the three pillars that make streams trustworthy. A practical guide with pitfalls and patterns.</p>
+          <a class="read-more" href="#">Read More →</a>
+        </article>
+        <article class="card blog-card reveal">
+          <h3>Lessons from Solving 500+ Competitive Programming Problems</h3>
+          <p>Patterns over problems: why invariants and state modeling transfer beautifully to production systems.</p>
+          <a class="read-more" href="#">Read More →</a>
+        </article>
+        <article class="card blog-card reveal">
+          <h3>Microservices Without the Madness</h3>
+          <p>Bounded contexts, contract testing, and the two kinds of service coupling you should design for deliberately.</p>
+          <a class="read-more" href="#">Read More →</a>
+        </article>
+        <article class="card blog-card reveal">
+          <h3>Why Clean Architecture is Non-Negotiable</h3>
+          <p>Dependencies point inwards, abstractions hold steady, and your codebase evolves without breaking a sweat.</p>
+          <a class="read-more" href="#">Read More →</a>
+        </article>
+      </div>
+
+      <div class="card code-flair reveal">
+        <pre><code>// draft: next-post.md
+"Observability First: Designing for Insight, Not Surprise"
+</code></pre>
+      </div>
+    </main>
+
+    <footer class="site-footer"><div class="container"><p>© <span id="year"></span> Apoorva Krisna.</p></div></footer>
+    <script src="./script.js" defer></script>
+  </body>
+</html>
